@@ -68,6 +68,13 @@ docker compose up -d
 
 L'option `-v` supprime le volume de la base de données : **toutes les données enregistrées seront définitivement effacées**. La seconde commande recrée les conteneurs en arrière-plan.
 
+## Documentation de l'API (Swagger UI)
+
+Une fois l'application démarrée, la documentation interactive est accessible via Swagger UI :
+
+- **Interface Swagger UI :** http://localhost:8084/swagger-ui/index.html
+- **Spécification OpenAPI (JSON) :** http://localhost:8084/v3/api-docs
+
 ## Documentation de l'API
 
 URL de base (en local) : `http://localhost:8084`

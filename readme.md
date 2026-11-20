@@ -65,6 +65,13 @@ docker compose up -d
 
 The `-v` option deletes the database volume, so **all stored database data will be permanently removed**. The second command recreates the containers in the background.
 
+## API Documentation (Swagger UI)
+
+Once the application is running, interactive API documentation is available via Swagger UI:
+
+- **Swagger UI:** http://localhost:8084/swagger-ui/index.html
+- **OpenAPI JSON:** http://localhost:8084/v3/api-docs
+
 ## API Documentation
 
 Base URL (local): `http://localhost:8084`
